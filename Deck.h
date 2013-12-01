@@ -37,7 +37,7 @@ void Deck::shuffle()
 void Deck::populate()
 {
 	int z = 0;
-	for (int i = 0; i < 13; i++)
+	for (int i = 0; i < 13; i++)                                    //52 cards in total, populate from one to 52
 	{
 		for (int a = 0; a < 4; a++)
 		{
